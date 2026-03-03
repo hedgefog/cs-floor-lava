@@ -1,0 +1,109 @@
+{
+  "environment": {
+    "sky": [
+      "gfx/env/floorlava1bk.tga",
+      "gfx/env/floorlava1dn.tga",
+      "gfx/env/floorlava1ft.tga",
+      "gfx/env/floorlava1lf.tga",
+      "gfx/env/floorlava1rt.tga",
+      "gfx/env/floorlava1up.tga"
+    ]
+  },
+  "common": {
+    "sprites": {
+      "wave-beam": "sprites/laserbeam.spr"
+    },
+    "sounds": {
+      "round-end": "vox/round.wav"
+    }
+  },
+  "player": {
+    "sounds": {
+      "scream": [
+        "scientist/scream2.wav",
+        "scientist/scream3.wav",
+        "scientist/scream4.wav",
+        "scientist/scream6.wav",
+        "scientist/scream7.wav",
+        "scientist/scream07.wav",
+        "scientist/scream22.wav",
+        "scientist/scream25.wav"
+      ],
+      "laugh": "floorlava/v100/laugh.wav",
+      "pain": "floorlava/v100/noah.wav",
+      "choke": "scientist/sci_die3.wav"
+    }
+  },
+  "entities": {
+    "lava": {
+      "model": "models/floorlava/v100/lava.mdl"
+    },
+    "gas": {
+      "model": "models/floorlava/v100/gascloud.mdl"
+    }
+  },
+  "weapons": {
+    "gymball": {
+      "models": {
+        "view": "models/floorlava/v100/weapons/v_gymball.mdl",
+        "player": "models/floorlava/v100/weapons/p_gymball.mdl",
+        "world": "models/floorlava/v100/weapons/w_gymball.mdl"
+      },
+      "sounds": {
+        "pop": "floorlava/v100/ball_pop.wav"
+      }
+    },
+    "grenade-wine": {
+      "models": {
+        "view": "models/floorlava/v100/weapons/v_winebomb.mdl",
+        "player": "models/floorlava/v100/weapons/p_winebomb.mdl",
+        "world": "models/floorlava/v100/weapons/w_winebomb.mdl"
+      },
+      "sounds": {
+        "break": "floorlava/v100/bottle_break.wav"
+      }
+    },
+    "basketball": {
+      "models": {
+        "view": "models/floorlava/v100/weapons/v_basketball.mdl",
+        "player": "models/floorlava/v100/weapons/p_basketball.mdl",
+        "world": "models/floorlava/v100/weapons/w_basketball.mdl"
+      },
+      "sounds": {
+        "bounce": "floorlava/v100/ball_bounce.wav"
+      }
+    },
+    "fists": {
+      "models": {
+        "view": "models/floorlava/v100/weapons/v_fists.mdl",
+        "player": "",
+        "world": ""
+      },
+      "sounds": {
+        "hit": [
+          "floorlava/v100/fists_hit1.wav",
+          "floorlava/v100/fists_hit2.wav",
+          "floorlava/v100/fists_hit3.wav",
+          "floorlava/v100/fists_hit4.wav"
+        ],
+        "super-punch": "ambience/thunder_clap.wav"
+      }
+    },
+    "boxing-gloves": {
+      "models": {
+        "view": "models/floorlava/v100/weapons/v_boxing_gloves.mdl",
+        "player": "models/floorlava/v100/weapons/p_boxing_gloves.mdl",
+        "world": ""
+      }
+    }
+  },
+  "artifacts": {
+    "jetpack": {
+      "model": "models/floorlava/v100/weapons/p_jetpack.mdl",
+      "sounds": {
+        "flame-burst": "ambience/flameburst1.wav",
+        "air-burst": "ambience/steamburst1.wav"
+      }
+    }
+  }
+}

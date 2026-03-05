@@ -4,7 +4,7 @@
 #define _floorlava_const_included
 
 stock const FLOORLAVA_TITLE[] = "The Floor is Lava";
-stock const FLOORLAVA_VERSION[] = "1.0.0";
+stock const FLOORLAVA_VERSION[] = "1.0.1";
 stock const FLOORLAVA_CHAT_PREFIX[] = "^4[The Floor is Lava]^1";
 
 /*--------------------------------[ Constants ]--------------------------------*/

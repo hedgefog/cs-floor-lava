@@ -1,8 +1,8 @@
 {
   "name": "cs-floor-lava",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Hedgehog Fog",
-  "description": "The Floor is Lava Mod",
+  "description": "CS The Floor is Lava Mod",
   "scripts": {
     "build": "amxxpack build",
     "watch": "amxxpack build --watch",
